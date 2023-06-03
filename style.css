@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+#home{
+    background-image: url("homebg3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 60vh;
+    width: 100%;
+}
+#home .menu{
+    font-family:sans-serif;
+    font-size: 20px;
+    padding-top: 18px; 
+    float: right;
+    padding-right: 15%;
+    display: flex;
+}
+.menu a{
+    padding: 10px 10px;
+    color: #fff;
+    font-weight: 500;
+    margin: 5px 10px;
+}
+.menu a:hover{
+    background-color: #fc8019;
+    border: 2px;
+    border-color: #fff;
+}
+.brand #logo{
+    font-family: 'Stylish', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 7%;
+    /* font-family: 'Mouse Memoirs', sans-serif; */
+    color: #fff;
+}
+.brand p{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #fff;
+    display:inline ;
+   margin-left: 22%;
+    margin-top: 8px;
+}
+.searchbar{
+    margin-left: 65vh;
+    margin-top: 30px;
+}
+#textbox{
+    font-size: 18px;
+    font-weight: 500;
+    height: 56px!important;
+    border-radius: 7px 0 0 7px;
+    width: 500px;
+    padding-top: 0!important;
+    padding-left: 15px!important;
+    padding-right: 160px!important;
+    caret-color: #fc8019;
+    border: none;
+    outline: none;
+}
+#btn{
+    background-color: #fc8019;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.12);height: 56px;
+    border-radius: 0 7px 7px 0;
+    line-height: 52px;
+    font-family: sans-serif;
+   text-transform:uppercase ; width: 140px;
+   cursor: pointer;
+   font-size: 16px;font-weight: 700;
+   border: none;margin-left: -4px;letter-spacing: .53px;padding: 0;color: #fff;
+}
+#cards{
+    margin-left: 24vh;
+    display: flex;
+}
+.card_body{
+    margin-top: 43px;
+    margin-left: 20px;
+}
+.card_body img{
+    border-radius: 10px 10px 0 0;
+}
+.card_body .card_content{
+    border-bottom: 1px solid rgb(232, 232, 232);
+    border-left: 1px solid rgb(232, 232, 232);
+    border-right: 1px solid rgb(232, 232, 232);
+    border-radius: 0px 0px 1.2rem 1.2rem;
+    font-family: Okra, Helvetica, sans-serif;
+    padding: 1rem 1.6rem 1.6rem;
+}
+.card_body .card_content .p1{
+    color: rgb(54, 54, 54);
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.card_body .card_content .p2{
+    color: rgb(97, 93, 93);
+    font-weight: 400;
+    font-size: 16px;
+    word-wrap: break-word;
+    word-break: break-all;
+    letter-spacing: 0.5px;
+}
+.card_body:hover{
+    transform: scale(1.07);
+    transition: 0.5s ease;
+}
+#about{
+    background-color: #2b1e16;
+    display: flex;
+    margin-top: 43px;
+    padding-bottom: 10vh;
+}
+#about #bestbuy{
+    margin-top: 13px;
+    margin-bottom: 50px;
+}
+#about #ordertrack{
+    margin-top: 5px;
+    margin-bottom: 58px;
+}
+#about #delivery{
+    margin-top: 10px;
+    margin-bottom: 54px;
+}
+#about .item1{
+    text-align: center;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+#about .item1 h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+#about .item1 p{
+    font-size: 15px;
+    width: 260px;
+    margin-top: 10px;
+    text-align: center;
+    color: #e0cbc1;
+}
+#item1{
+    margin-left: 22vh;
+}
+#item2{
+    margin-left: 30vh;
+}
+#item3{
+    margin-left: 25vh;
+}
+#footer{
+    background: rgb(214, 213, 213);
+
+}
+#footer #logo h2{
+    font-family: 'Stylish', sans-serif;font-size: 40px;
+    padding-top: 50px;
+    padding-left: 33vh;
+}
+.aboutcomp{
+    margin-left: 94px;
+}
+.aboutcomp h6{
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0px 0px 1.2rem;font-family: Okra, Helvetica, sans-serif;
+}
+.aboutcomp a p{
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 2.1rem;
+    color: rgb(105, 105, 105);
+    margin-top: -7px;
+}
+.footercontent{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20vh;
+    margin-bottom: 10vh;
+}
+.aboutcomp a p:hover{
+    text-decoration: underline;
+}
+.fa-facebook{
+    background-color: #2b1e16;
+    padding: 5px 8px;
+    margin-right: 5px;
+    color: #fff;
+    border-radius: 50%;
+}
+.fa-instagram{
+    background-color: #2b1e16;
+    padding: 5px 5px;
+    margin-right: 5px;
+    color: #fff;
+    border-radius: 50%;
+}
+.fa-twitter{
+    background-color: #2b1e16;
+    padding: 5px 5px;
+    margin-right: 5px;
+    color: #fff;
+    border-radius: 50%;
+}
+.fa-linkedin{
+    background-color: #2b1e16;
+    padding: 6px 7px;
+    margin-right: 5px;
+    color: #fff;
+    border-radius: 50%;
+}
+.fa:hover{
+    transform: scale(1.3);
+    transition: 0.5s ease;
+}
+.copyright p{
+    font-size: 0.9rem;
+    color: rgb(124, 120, 120);
+    padding-top: 30px;
+    margin-left: 33vh;
+    margin-right: 20vh;
+    padding-bottom: 50px;
+    border-top: 1px solid grey;
+    font-family: Okra, Helvetica, sans-serif;
+}
